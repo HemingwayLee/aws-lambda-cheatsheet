@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export AWS_ACCESS_KEY_ID=test
+export AWS_SECRET_ACCESS_KEY=test
+
 echo -e "\033[1;31m Create Table \033[0m"
 aws dynamodb create-table \
   --table-name Students \
