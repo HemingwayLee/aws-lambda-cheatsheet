@@ -1,3 +1,8 @@
+# Note
+```
+Not 100% done yet
+```
+
 # How to run 
 ```
 docker-compose up
