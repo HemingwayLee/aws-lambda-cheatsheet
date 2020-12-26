@@ -7,3 +7,7 @@ COPY . .
 RUN npm install -g lambda-local
 
 
+
+CMD lambda-local -l handler.js -h foo --watch 8008
+
+
